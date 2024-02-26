@@ -1,0 +1,59 @@
+.child button:hover{
+    background-color: rgba(0, 255, 38, 0.811);
+    color: black;
+}
+.child button{
+    background-color: rgb(98, 93, 93);
+    border-radius: 9%;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    transition: 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color:   black
+}
+h2 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#location {
+    color: rgb(0, 255, 30);
+    font-family: sans-serif;
+    margin-top: 1px;
+}
+p {
+    color: rgba(255, 250, 250, 0.373);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(40, 38, 38);
+    width: 400px;
+    border-radius: 6%;
+    margin-left: 580px;
+}
+img {
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: 145px;
+}
+#last {
+    margin-bottom: 30px;
+}
